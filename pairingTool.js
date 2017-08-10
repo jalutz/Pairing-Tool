@@ -1,4 +1,4 @@
-import _ from 'lodash'
+const _ = require('lodash')
 
 const PAIR_NAMES = ["JB", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL"];
 

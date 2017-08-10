@@ -1,0 +1,37 @@
+{
+  "name": "Pairing-Tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pairingTool.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "15.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-react-display-name": "^2.0.0",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-register": "^6.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalutz/Pairing-Tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalutz/Pairing-Tool/issues"
+  },
+  "homepage": "https://github.com/jalutz/Pairing-Tool#readme"
+}
