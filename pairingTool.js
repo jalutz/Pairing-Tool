@@ -12,7 +12,7 @@ const INITIAL_PAIRS = [
     [5, 6],
     [7, 8],
     [9, 10]
-]
+];
 
 let pairsForWeek = [
     [
@@ -21,6 +21,13 @@ let pairsForWeek = [
         ['JB', 'SC'],
         ['JM', 'RV'],
         ['BD', 'JL']
+    ],
+    [
+        ['MT', 'RV'],
+        ['JL', 'RS'],
+        ['JB', 'JM'],
+        ['GB', 'SC'],
+        ['GV', 'BD']
     ]
 ];
 
