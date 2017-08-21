@@ -2,3 +2,4 @@
 /node_modules/
 /.idea/
 /Pairing-Tool.iml
+/package-lock.json
