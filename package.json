@@ -5,7 +5,8 @@
   "main": "pairingTool.js",
   "dependencies": {
     "lodash": "^4.17.4",
-    "react": "15.5.4"
+    "react": "15.5.4",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -18,10 +19,13 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-hmre": "^1.1.1",
     "babel-preset-stage-1": "^6.24.1",
-    "babel-register": "^6.24.1"
+    "babel-register": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "webpack": "^3.5.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node tools/srcServer.js"
   },
   "repository": {
     "type": "git",
