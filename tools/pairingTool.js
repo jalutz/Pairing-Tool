@@ -70,6 +70,13 @@ let pairsForWeek = [
         ['GB', 'JB'],
         ['JM', 'RS'],
         ['BD', 'MT']
+    ],
+    [
+        ['GB', 'JM'],
+        ['BD', 'RV'],
+        ['GV', 'MT'],
+        ['JB', 'RS'],
+        ['JL', 'SC'],
     ]
 ];
 
