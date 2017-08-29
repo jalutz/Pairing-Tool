@@ -16,67 +16,18 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
     [
-        ['GB', 'GV'],
-        ['MT', 'RS'],
-        ['JB', 'SC'],
-        ['JM', 'RV'],
-        ['BD', 'JL']
-    ],
-    [
-        ['MT', 'RV'],
-        ['JL', 'RS'],
-        ['JB', 'JM'],
-        ['GB', 'SC'],
-        ['GV', 'BD']
-    ],
-    [
-        ['BD', 'GB'],
-        ['RV', 'SC'],
-        ['GV', 'RS'],
-        ['JB', 'JL'],
-        ['JM', 'MT']
-    ],
-    [
-        ['GB', 'RS'],
-        ['JL', 'JM'],
-        ['BD', 'SC'],
-        ['JB', 'MT'],
-        ['GV', 'RV']
-    ],
-    [
-        ['JM', 'SC'],
-        ['GV', 'JB'],
-        ['JL', 'MT'],
-        ['BD', 'RS'],
-        ['GB', 'RV']
-    ],
-    [
-        ['BD', 'JM'],
-        ['GV', 'JL'],
-        ['GB', 'MT'],
-        ['JB', 'RV'],
-        ['RS', 'SC']
-    ],
-    [
-        ['GB', 'JL'],
-        ['MT', 'SC'],
-        ['GV', 'JM'],
-        ['BD', 'JB'],
-        ['RS', 'RV']
-    ],
-    [
-        ['GV', 'SC'],
-        ['JL', 'RV'],
-        ['GB', 'JB'],
-        ['JM', 'RS'],
-        ['BD', 'MT']
-    ],
-    [
         ['GB', 'JM'],
         ['BD', 'RV'],
         ['GV', 'MT'],
         ['JB', 'RS'],
         ['JL', 'SC'],
+    ],
+    [
+        ['JB', 'SC'],
+        ['GV', 'JM'],
+        ['MT', 'RV'],
+        ['BD', 'RS'],
+        ['GB', 'JL'],
     ]
 ];
 
