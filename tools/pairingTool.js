@@ -1,6 +1,6 @@
 const _ = require('lodash')
 
-const PAIR_NAMES = ["JB", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL"];
+const PAIR_NAMES = ["", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL"];
 
 const NUM_PAIRS = 5;
 
@@ -16,32 +16,18 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
     [
-        ['GB', 'JM'],
-        ['BD', 'RV'],
-        ['GV', 'MT'],
-        ['JB', 'RS'],
-        ['JL', 'SC'],
+        ['MT', 'JM'],
+        ['JL', 'RV'],
+        ['GV', 'BD'],
+        ['SC', 'RS'],
+        ['GB', ''],
     ],
     [
-        ['JB', 'SC'],
-        ['GV', 'JM'],
-        ['MT', 'RV'],
-        ['BD', 'RS'],
-        ['GB', 'JL'],
-    ],
-    [
-        ['RV', 'SC'],
-        ['BD', 'GB'],
-        ['GV', 'RS'],
-        ['JB', 'MT'],
-        ['JL', 'JM'],
-    ],
-    [
+        ['', 'SC'],
+        ['BD', 'JM'],
         ['JL', 'RS'],
-        ['GB', 'MT'],
-        ['BD', 'SC'],
-        ['JB', 'JM'],
-        ['GV', 'RV'],
+        ['GB', 'GV'],
+        ['MT', 'RV']
     ]
 ];
 
