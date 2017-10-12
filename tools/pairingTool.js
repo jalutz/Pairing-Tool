@@ -16,45 +16,18 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
     [
-        ['RS', 'RV'],
-        ['', 'JM'],
-        ['BD', 'SC'],
-        ['GV', 'MT'],
-        ['GB', 'JL']
-    ],
-    [
-        ['GB', 'GV'],
-        ['SC', 'RS'],
-        ['', 'BD'],
-        ['RV', 'JL'],
-        ['JM', 'MT']
-    ],
-    [
-        ['GB', 'JM'],
-        ['MT', 'RV'],
         ['', 'SC'],
-        ['BD', 'RS'],
-        ['GV', 'JL']
-    ], [
-        ['MT', 'JL'],
+        ['BD', 'JL'],
+        ['MT', 'RV'],
+        ['GV', 'GB'],
+        ['JM', 'RS']
+    ],
+    [
+        ['RS', 'RV'],
         ['GV', 'SC'],
-        ['BD', 'RV'],
-        ['JM', ''],
-        ['GB', 'RS']
-    ],
-    [
-        ['GV', 'RV'],
-        ['BD', 'JM'],
-        ['GB', 'SC'],
-        ['', 'MT'],
-        ['JL', 'RS']
-    ],
-    [
-        ['JL', 'SC'],
-        ['BD', 'GV'],
-        ['MT', 'RS'],
-        ['', 'GB'],
-        ['JM', 'RV']
+        ['', 'JM'],
+        ['MT', 'JL'],
+        ['BD', 'GB']
     ]
 ];
 
@@ -72,7 +45,7 @@ function switchPairs(pairs, pairMatch = false, newPairs = []) {
         return;
     }
 
-    if (pairMatch == false && newPairs.length > 0) {
+    if (pairMatch === false && newPairs.length > 0) {
         return newPairs;
     }
 
