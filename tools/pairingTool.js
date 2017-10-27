@@ -49,10 +49,16 @@ let pairsForWeek = [
             ['JM', 'RS'],
             ['GB', 'GV'],
             ['MT', 'SC']
+        ],
+        [
+            ['BD', 'RS'],
+            ['JM', 'RV'],
+            ['GV', 'MT'],
+            ['', 'JL'],
+            ['GB', 'SC']
         ]
     ]
 ;
-
 //let pairs = fetch("pairs.txt");
 //console.log(pairs.split(";"));
 //let pairNames = PAIRS.slice(0, 1);
