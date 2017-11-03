@@ -57,12 +57,26 @@ let pairsForWeek = [
             ['', 'JL'],
             ['GB', 'SC']
         ],
-    [
-        [ 'GB', 'JM' ],
-            [ 'BD', 'MT' ],
-            [ 'RS', 'RV' ],
-            [ 'JL', 'SC' ]
-    ]
+        [
+            ['GB', 'JM'],
+            ['BD', 'MT'],
+            ['RS', 'RV'],
+            ['JL', 'SC']
+        ],
+        [
+            ['GB', 'SC'],
+            ['RS', 'MT'],
+            ['JM', 'BD'],
+            ['JL', 'RV']
+        ],
+        [
+            ['BD', 'SC'],
+            ['GB', 'MT'],
+            ['JM', 'GV'],
+            ['JL', 'RS'],
+            ['', 'RV']
+        ]
+
     ]
 ;
 //let pairs = fetch("pairs.txt");
