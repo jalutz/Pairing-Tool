@@ -16,67 +16,17 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
         [
-            ['BD', 'SC'],
-            ['RV', 'GV'],
-            ['GB', 'RS'],
-            ['JL', 'JM'],
-            ['MT', '']
-        ],
-        [
-            ['RS', 'GB'],
-            ['GV', ''],
-            ['JL', 'MT'],
-            ['BD', 'JM'],
-            ['SC', 'RV'],
-        ],
-        [
-            ['GV', 'JM'],
-            ['MT', 'RV'],
-            ['BD', 'GB'],
-            ['RS', ''],
-            ['SC', 'JL']
-        ],
-        [
-            ['GB', 'RV'],
-            ['JL', 'RS'],
-            ['', 'BD'],
-            ['GV', 'SC'],
-            ['JM', 'MT']
-        ],
-        [
-            ['BD', 'JL'],
-            ['', 'RV'],
-            ['JM', 'RS'],
-            ['GB', 'GV'],
-            ['MT', 'SC']
-        ],
-        [
-            ['BD', 'RS'],
-            ['JM', 'RV'],
-            ['GV', 'MT'],
-            ['', 'JL'],
-            ['GB', 'SC']
-        ],
-        [
-            ['GB', 'JM'],
-            ['BD', 'MT'],
-            ['RS', 'RV'],
-            ['JL', 'SC']
-        ],
-        [
-            ['GB', 'SC'],
-            ['RS', 'MT'],
-            ['JM', 'BD'],
-            ['JL', 'RV']
-        ],
-        [
-            ['BD', 'SC'],
             ['GB', 'MT'],
-            ['JM', 'GV'],
+            ['JM', 'BD'],
             ['JL', 'RS'],
-            ['', 'RV']
+            ['GV', 'RV']
+        ],
+        [
+            ['JL', 'GB'],
+            ['GV', 'JM'],
+            ['RS', 'MT'],
+            ['BD', 'SC'],
         ]
-
     ]
 ;
 //let pairs = fetch("pairs.txt");
