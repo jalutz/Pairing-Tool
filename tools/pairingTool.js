@@ -15,21 +15,27 @@ const INITIAL_PAIRS = [
 ];
 
 let pairsForWeek = [
-    [
-        ['GB', 'JLIN'],
-        ['GV', 'SC'],
-        ['RS', 'JL'],
-        ['JM', '']
-    ],
-    [
-        [ 'JL', 'GB' ],
-        [ '', 'MT' ],
-        [ 'BD', 'JM' ],
-        [ 'RS', 'SC' ],
-        [ 'JLIN', 'GV' ]
-    ]
+        [
+            ['GB', 'JLIN'],
+            ['GV', 'SC'],
+            ['RS', 'JL'],
+            ['JM', '']
+        ],
+        [
+            ['JL', 'GB'],
+            ['', 'MT'],
+            ['BD', 'JM'],
+            ['RS', 'SC'],
+            ['JLIN', 'GV']
+        ],
+        [
+            ['BD', 'SC'],
+            ['JL', 'GB'],
+            ['GV', 'RS'],
+            ['JLIN', 'MT']
+        ]
 
-]
+    ]
 ;
 //let pairs = fetch("pairs.txt");
 //console.log(pairs.split(";"));
