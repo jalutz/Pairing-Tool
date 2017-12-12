@@ -27,6 +27,12 @@ let pairsForWeek = [
             ['RV', 'SC'],
             ['GV', 'RS'],
             ['GB', 'MT']
+        ],
+        [
+            ['GV', 'SC'],   // Interior Door
+            ['JLIN', 'RS'], // Wiring
+            ['JL', 'GB'],   // Interior Door
+            ['RV', 'MT']    // Refactor
         ]
     ]
 ;
