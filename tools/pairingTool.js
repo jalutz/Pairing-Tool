@@ -46,6 +46,12 @@ let pairsForWeek = [
             ['GV', 'JL'],  // Interior UI
             ['', 'SC'],    // Interior Data
             ['JLIN', 'MT'] // Refactor
+        ],
+        [
+            ['JLIN', 'JM'], // Wiring
+            ['GB', 'RS'],   // Interior UI
+            ['', 'RV'],     // Refactor
+            ['GV', 'SC']    // Interior Data
         ]
     ]
 ;
