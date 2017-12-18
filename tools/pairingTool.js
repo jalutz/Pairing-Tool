@@ -52,6 +52,12 @@ let pairsForWeek = [
             ['GB', 'RS'],   // Interior UI
             ['', 'RV'],     // Refactor
             ['GV', 'SC']    // Interior Data
+        ],
+        [
+            [ 'GB', 'SC' ], // Interior Data
+            [ '','JM' ],   // Wiring
+            [ 'JL', 'RS' ],  // Interior UI
+            [ 'JLIN', 'GV' ]  // Refactor on delete order item
         ]
     ]
 ;
