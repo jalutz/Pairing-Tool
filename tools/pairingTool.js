@@ -54,10 +54,22 @@ let pairsForWeek = [
             ['GV', 'SC']    // Interior Data
         ],
         [
-            [ 'GB', 'SC' ], // Interior Data
-            [ '','JM' ],   // Wiring
-            [ 'JL', 'RS' ],  // Interior UI
-            [ 'JLIN', 'GV' ]  // Refactor on delete order item
+            ['GB', 'SC'], // Interior Data
+            ['', 'JM'],   // Wiring
+            ['JL', 'RS'],  // Interior UI
+            ['JLIN', 'GV']  // Refactor on delete order item
+        ],
+        [
+            ['JL', 'JLIN'], // Interior UI
+            ['GB', 'JM'], // Wiring
+            ['RS', 'SC'], // Interior Data
+            ['GV', ''], // Refactor
+        ],
+        [
+            ['GV', 'JM'], // Interior UI
+            ['JLIN', 'RS'], // Interior Data
+            ['GB', 'JL'], // Wiring
+            ['RV', 'MT'] // Refactor
         ]
     ]
 ;
