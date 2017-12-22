@@ -16,66 +16,10 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
         [
-            ['RS', 'RV'],
-            ['', 'JM'],
-            ['JLIN', 'SC'],
-            ['GV', 'JL'],
-            ['GB', 'MT']
-        ],
-        [
-            ['JL', 'JLIN'],
-            ['RV', 'SC'],
-            ['GV', 'RS'],
-            ['GB', 'MT']
-        ],
-        [
-            ['JLIN', 'SC'],   // Interior Door
-            ['GV', 'RS'], // Wiring
-            ['JL', 'GB'],   // Interior Door
-            ['RV', 'MT']    // Refactor
-        ],
-        [
-            ['RV', 'MT'],  // Refactor
-            ['GB', 'GV'],  // Interior UI
-            ['JL', 'SC'],  // Interior Backend
-            ['JLIN', 'RS'] // Wiring
-        ],
-        [
-            ['GB', 'RV'],  // Refactor
-            ['JM', 'RS'],  // Wiring
-            ['GV', 'JL'],  // Interior UI
-            ['', 'SC'],    // Interior Data
-            ['JLIN', 'MT'] // Refactor
-        ],
-        [
-            ['JLIN', 'JM'], // Wiring
-            ['GB', 'RS'],   // Interior UI
-            ['', 'RV'],     // Refactor
-            ['GV', 'SC']    // Interior Data
-        ],
-        [
-            ['GB', 'SC'], // Interior Data
-            ['', 'JM'],   // Wiring
-            ['JL', 'RS'],  // Interior UI
-            ['JLIN', 'GV']  // Refactor on delete order item
-        ],
-        [
-            ['JL', 'JLIN'], // Interior UI
-            ['GB', 'JM'], // Wiring
-            ['RS', 'SC'], // Interior Data
-            ['GV', ''], // Refactor
-        ],
-        [
-            ['GV', 'JM'], // Interior UI
-            ['JLIN', 'RS'], // Interior Data
-            ['GB', 'JL'], // Wiring
-            ['RV', 'MT'] // Refactor
-        ],
-        [
-            ['GV', 'GB'], // Interior UI
-            ['', 'SC'], // Interior Data
-            ['JLIN', 'RS'], // Wiring
-            ['RV', 'MT'] // Refactor
+            ['JL', 'RS'],       //Wiring
+            ['GB', 'JLIN'],     //Interior Data
+            ['SC', 'RV'],       //Refactor
+            ['JM', 'GV']        //Interior UI
         ]
     ]
 ;
