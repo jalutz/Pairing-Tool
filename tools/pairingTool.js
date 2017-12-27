@@ -20,6 +20,13 @@ let pairsForWeek = [
             ['GB', 'JLIN'],     //Interior Data
             ['SC', 'RV'],       //Refactor
             ['JM', 'GV']        //Interior UI
+        ],
+        [
+            [ 'JL', 'RV' ],
+            [ 'BD', 'JLIN' ],
+            [ 'JM', 'RS' ],
+            [ 'GB', 'GV' ],
+            [ 'MT', 'SC' ]
         ]
     ]
 ;
