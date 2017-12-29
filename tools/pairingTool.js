@@ -22,11 +22,18 @@ let pairsForWeek = [
             ['JM', 'GV']        //Interior UI
         ],
         [
-            [ 'JL', 'RV' ],
-            [ 'BD', 'JLIN' ],
-            [ 'JM', 'RS' ],
-            [ 'GB', 'GV' ],
-            [ 'MT', 'SC' ]
+            ['JL', 'RV'],
+            ['BD', 'JLIN'],
+            ['JM', 'RS'],
+            ['GB', 'GV'],
+            ['MT', 'SC']
+        ],
+        [
+            ['MT', 'RS'],
+            ['JLIN', 'SC'],
+            ['GB', 'RV'],
+            ['BD', 'JM'],
+            ['GV', 'JL']
         ]
     ]
 ;
