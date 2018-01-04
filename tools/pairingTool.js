@@ -13,6 +13,7 @@ const INITIAL_PAIRS = [
     [7, 8],
     [9, 10]
 ];
+``
 
 let pairsForWeek = [
         [
@@ -40,7 +41,7 @@ let pairsForWeek = [
         [
             ['BD', 'RS'],       // Interior
             ['SC', 'JM'],       // Wiring
-            ['GB', 'MT'],       // Refactor
+            ['', 'MT'],       // Refactor
             ['JLIN', 'RV'],     // Refactor
             ['GV', 'JL']        // Interior
         ],
@@ -50,6 +51,12 @@ let pairsForWeek = [
             ['JM', 'JL'],       // Wiring
             ['RV', 'SC'],       // Refactor
             ['JLIN', 'MT']      // Refactor
+        ],
+        [
+            ['JM', 'MT'],       // Refactor
+            ['GV', 'JLIN'],     // Interior
+            ['GB', 'SC'],       // Refactor
+            ['RV', 'JL']        // Interior
         ]
     ]
 ;
