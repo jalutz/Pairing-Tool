@@ -35,6 +35,12 @@ let pairsForWeek = [
             ['BD', 'GV'],       // Interior
             ['JLIN', 'SC'],     // Interior (WebDE)
             ['RS', 'JM']        // Wiring
+        ],
+        [
+            ['GV', ''],         // Interior
+            ['GB', 'JL'],       // Interior
+            ['BD', 'RS'],       // Interior
+            ['JLIN', 'JM']      // Wiring
         ]
     ]
 ;
@@ -138,8 +144,8 @@ let newPairs = switchPairs(pairsForWeek)
 console.log("final new pairs: ");
 
 newPairs.forEach(pair => {
-    console.log(pair)
-})
+    console.log("[",pair[0],",", pair[1],"], ")
+});
 
 console.log("")
 console.log("FINISHED PAIRING")
