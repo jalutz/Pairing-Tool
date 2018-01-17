@@ -47,6 +47,12 @@ let pairsForWeek = [
             ['GV', 'JLIN'],     // Interior
             ['JL', 'RV'],       // Refactor
             ['GB', 'RS'],       // Wiring
+        ], [
+            ['GV', 'RS'],       // Interior
+            ['BD', 'JLIN'],     // Interior
+            ['GB', 'JM'],       // Wiring
+            ['JL', 'RV'],       // Refactor
+            ['MT', ''],         // Refactor
         ]
     ]
 ;
@@ -150,7 +156,7 @@ let newPairs = switchPairs(pairsForWeek)
 console.log("final new pairs: ");
 
 newPairs.forEach(pair => {
-    console.log("[", pair[0], ",", pair[1], "], ")
+    console.log("['" + pair[0] + "','" + pair[1] + "'], ")
 });
 
 console.log("")
