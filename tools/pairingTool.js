@@ -31,28 +31,36 @@ let pairsForWeek = [
         ],
         [
             ['GB', 'MT'],       // Refactor
-            ['', 'RV'],         // Refactor
+            ['JL', 'RV'],       // Refactor
             ['BD', 'GV'],       // Interior
             ['JLIN', 'SC'],     // Interior (WebDE)
             ['RS', 'JM']        // Wiring
         ],
         [
-            ['GV', ''],         // Interior
+            ['GV', 'MT'],       // Interior
             ['GB', 'JL'],       // Interior
             ['BD', 'RS'],       // Interior
             ['JLIN', 'JM']      // Wiring
         ],
         [
-            ['BD', ''],         // Interior
+            ['BD', 'MT'],       // Interior
             ['GV', 'JLIN'],     // Interior
             ['JL', 'RV'],       // Refactor
             ['GB', 'RS'],       // Wiring
+            ['JM', 'SC']        // Wiring
         ], [
             ['GV', 'RS'],       // Interior
             ['BD', 'JLIN'],     // Interior
             ['GB', 'JM'],       // Wiring
             ['JL', 'RV'],       // Refactor
-            ['MT', ''],         // Refactor
+            ['MT', 'SC'],       // Refactor
+        ],
+        [
+            ['BD','JM'],        // Wiring
+            ['JLIN','MT'],      // Refactor
+            ['JL','RS'],        // Interior
+            ['GB','SC'],        // Interior
+            ['GV','RV']         // Refactor
         ]
     ]
 ;
