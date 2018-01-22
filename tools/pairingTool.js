@@ -17,57 +17,17 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
         [
-            ['SC', 'RV'],       // Refactor
-            ['JL', 'MT'],       // Refactor
-            ['GV', 'GB'],       // Interior
-            ['BD', 'JLIN'],     // Wiring
-            ['JM', 'RS']        // Interior
-        ], [
-            ['RV', 'SC'],       // Refactor
-            ['JM', 'MT'],       // Refactor
-            ['JLIN', 'RS'],     // Wiring
-            ['GV', 'GB'],       // Interior
-            ['JL', 'BD']        // Interior
-        ],
-        [
-            ['GB', 'MT'],       // Refactor
-            ['JL', 'RV'],       // Refactor
-            ['BD', 'GV'],       // Interior
-            ['JLIN', 'SC'],     // Interior (WebDE)
-            ['RS', 'JM']        // Wiring
-        ],
-        [
-            ['GV', 'MT'],       // Interior
-            ['GB', 'JL'],       // Interior
-            ['BD', 'RS'],       // Interior
-            ['JLIN', 'JM']      // Wiring
-        ],
-        [
-            ['BD', 'MT'],       // Interior
-            ['GV', 'JLIN'],     // Interior
-            ['JL', 'RV'],       // Refactor
-            ['GB', 'RS'],       // Wiring
-            ['JM', 'SC']        // Wiring
-        ], [
-            ['GV', 'RS'],       // Interior
-            ['BD', 'JLIN'],     // Interior
-            ['GB', 'JM'],       // Wiring
-            ['JL', 'RV'],       // Refactor
-            ['MT', 'SC'],       // Refactor
-        ],
-        [
-            ['BD', 'JM'],        // Wiring
-            ['JLIN', 'MT'],      // Refactor
-            ['JL', 'RS'],        // Interior
-            ['GB', 'SC'],        // Interior
-            ['GV', 'RV']         // Refactor
-        ],
-        [
             ['JLIN', 'GB'],
             ['MT', 'RS'],
             ['JL', 'SC'],
             ['GV', 'JM'],
             ['BD', 'RV']
+        ],
+        [
+            ['GB', 'JL'],
+            ['JLIN', 'BD'],
+            ['JM', 'RS'],
+            ['MT', 'RV']
         ]
     ]
 ;
