@@ -17,66 +17,18 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
         [
-            ['JLIN', 'GB'],
-            ['MT', 'RS'],
-            ['JL', 'SC'],
-            ['GV', 'JM'],
-            ['BD', 'RV']
-        ],
-        [
-            ['GB', 'JL'],
-            ['JLIN', 'BD'],
-            ['JM', 'RS'],
-            ['MT', 'RV']
-        ],
-        [
-            ['JL', 'RV'],       // Refactor
-            ['GV', 'JLIN'],     // Interior
-            ['BD', 'SC'],       // Interior
-            ['GB', 'RS'],       // Interior
-            ['JM', 'MT']        // Refactor
-        ],
-        [
-            ['RS', 'RV'],       // Refactor
-            ['JLIN', 'JM'],     // Wiring
-            ['BD', 'GB'],       // Interior
-            ['MT', 'SC'],       // Refactor
-            ['GV', 'JL']        // Interior
-        ],
-        [
-            ['GB', 'MT'],       // Refactor
-            ['RV', 'SC'],       // Refactor
-            ['JLIN', 'RS'],     // Interior
-            ['JL', 'JM'],       // Wiring
-            ['BD', 'GV']        // Interior
-        ],
-        [
-            ['BD', 'JL'],       // Interior
-            ['JM', 'SC'],       // Wiring
-            ['GV', 'RS'],       // Interior
-            ['JLIN', 'MT'],     // Refactor
-            ['GB', 'RV'],       // Refactor
-        ],
-        [
-            ['BD', 'RS'],       // Interior
-            ['JLIN', 'SC'],     // Interior
-            ['GB', 'JM'],       // Wiring
-            ['GV', 'RV'],       // Refactor
-            ['JL', 'MT']        // Refactor
-        ],
-        [
-            ['JM', 'RV'],       // Wiring
-            ['GB', 'GV'],       // Interior
-            ['BD', 'MT'],       // Refactor
-            ['JL', 'JLIN'],     // Interior
-            ['RS', 'SC']        // Interior
-        ],
-        [
             ['JL', 'RS'],       // Interior
             ['BD', 'JM'],       // Wiring
             ['GB', 'SC'],       // Interior
             ['GV', 'MT'],       // Refactor
             ['JLIN', 'RV']      // Refactor
+        ],
+        [
+            ['BD', 'JL'],       // Interior
+            ['GB', 'RS'],       // Interior
+            ['GV', 'JM'],       // Interior
+            ['MT', 'RV'],       // Refactor
+            ['JLIN', 'SC']      // Interior
         ]
     ]
 ;
