@@ -70,6 +70,13 @@ let pairsForWeek = [
             ['BD', 'MT'],       // Refactor
             ['JL', 'JLIN'],     // Interior
             ['RS', 'SC']        // Interior
+        ],
+        [
+            ['JL', 'RS'],       // Interior
+            ['BD', 'JM'],       // Wiring
+            ['GB', 'SC'],       // Interior
+            ['GV', 'MT'],       // Refactor
+            ['JLIN', 'RV']      // Refactor
         ]
     ]
 ;
