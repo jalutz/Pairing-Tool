@@ -36,12 +36,18 @@ let pairsForWeek = [
             ['MT', 'SC'],       // Refactor
             ['BD', 'RS'],       // Interior
             ['GB', 'JM']        // Interior
+        ], [
+            ['GV', 'JL'],       // Interior
+            ['MT', 'RS'],       // Refactor
+            ['JLIN', 'JM'],     // Interior
+            ['BD', 'GB'],       // Interior
+            ['RV', 'SC']        // Refactor
         ]
     ]
 ;
 //let pairs = fetch("pairs.txt");
 //console.log(pairs.split(";"));
-//let pairNames = PAIRS.slice(0, 1);
+//let pairNames = PAIRS.slice(0, 1);R
 
 function switchPairs(pairs, pairMatch = false, newPairs = []) {
 
