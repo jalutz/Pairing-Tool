@@ -17,59 +17,11 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
         [
-            ['JL', 'RS'],       // Interior
-            ['BD', 'JM'],       // Wiring
-            ['GB', 'SC'],       // Interior
-            ['GV', 'MT'],       // Refactor
-            ['JLIN', 'RV']      // Refactor
-        ],
-        [
-            ['BD', 'JL'],       // Interior
-            ['GB', 'RS'],       // Interior
-            ['GV', 'JM'],       // Interior
-            ['MT', 'RV'],       // Refactor
-            ['JLIN', 'SC']      // Interior
-        ],
-        [
-            ['JL', 'RV'],       // Refactor
-            ['GV', 'JLIN'],     // Interior
-            ['MT', 'SC'],       // Refactor
-            ['BD', 'RS'],       // Interior
-            ['GB', 'JM']        // Interior
-        ], [
-            ['GV', 'JL'],       // Interior
-            ['MT', 'RS'],       // Refactor
-            ['JLIN', 'JM'],     // Interior
-            ['BD', 'GB'],       // Interior
-            ['RV', 'SC']        // Refactor
-        ],
-        [
-            ['GB', 'JLIN'],     // Interior
-            ['GV', 'RS'],       // Interior
-            ['BD', 'RV'],       // Refactor
-            ['JM', 'SC'],       // Interior
-            ['JL', 'MT']        // Refactor
-        ],
-        [
-            ['JLIN', 'MT'],     // Refactor
+            ['GB', 'MT'],       // Refactor
+            ['JLIN', 'RV'],     // USAWD
             ['BD', 'GV'],       // Interior
-            ['GB', 'RV'],       // Interior
-            ['JL', 'JM'],       // Interior
-            ['RS', 'SC'],       // Interior
-        ],
-        [
-            ['GV', 'SC'],       // Interior
-            ['JM', 'MT'],       // Refactor
-            ['GB', 'JL'],       // Interior
-            ['RS', 'RV'],       // Interior
-            ['BD', 'JLIN']      // Interior
-        ],
-        [
-            ['GB', 'MT'],
-            ['GV', 'RV'],
-            ['BD', 'SC'],
-            ['JM', 'RS'],
-            ['JL', 'JLIN']
+            ['JM', 'RS'],       // Interior
+            ['JL', 'SC']        // Interior
         ]
 
     ]
