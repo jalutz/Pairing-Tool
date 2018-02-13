@@ -1,4 +1,4 @@
-const _ = require('lodash')
+const _ = require('lodash');
 
 const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL"];
 
@@ -13,7 +13,7 @@ const INITIAL_PAIRS = [
     [7, 8],
     [9, 10]
 ];
-``
+``;
 
 let pairsForWeek = [
         [
@@ -22,7 +22,14 @@ let pairsForWeek = [
             ['BD', 'GV'],       // Interior
             ['JM', 'RS'],       // Interior
             ['JL', 'SC']        // Interior
-        ]
+        ],
+    [
+        ['RV', 'MT'],       // Refactor
+        ['RS', 'SC'],       // Interior
+        ['JL', 'GV'],       // Interior
+        ['JM', 'JLIN'],     // USAWD
+        ['BD', 'GB']        // Interior
+    ]
 
     ]
 ;
@@ -56,12 +63,12 @@ function switchPairs(pairs, pairMatch = false, newPairs = []) {
 
         let sortedPair = _.sortBy(newPair, (o) => {
             return o
-        })
+        });
 
         newPairs.push(sortedPair)
     }
 
-    pairMatch = checkPairs(newPairs, pairsForWeek)
+    pairMatch = checkPairs(newPairs, pairsForWeek);
 
     if (pairMatch == true) {
         return switchPairs(pairs, pairMatch, newPairs)
@@ -85,14 +92,14 @@ function checkPairs(newPairs, oldPairsList) {
                 }
 
                 pairMatch = (oldPair[0] == pair[0] && oldPair[1] == pair[1]) ||
-                    (oldPair[0] == pair[1] && oldPair[1] == pair[0])
+                    (oldPair[0] == pair[1] && oldPair[1] == pair[0]);
 
                 if (pairMatch == true) {
-                    return;
+
                 }
             })
         })
-    })
+    });
 
     return pairMatch
 }
@@ -106,7 +113,7 @@ function getNewPair(pairs, f) {
 
     f.splice(f.indexOf(ran2), 1);
 
-    let newPair = [ran1, ran2]
+    let newPair = [ran1, ran2];
 
     return newPair;
 }
@@ -117,11 +124,11 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-console.log("-------")
-console.log("STARTING PAIRING")
-console.log("")
+console.log("-------");
+console.log("STARTING PAIRING");
+console.log("");
 
-let newPairs = switchPairs(pairsForWeek)
+let newPairs = switchPairs(pairsForWeek);
 
 console.log("final new pairs: ");
 
@@ -129,6 +136,6 @@ newPairs.forEach(pair => {
     console.log("['" + pair[0] + "','" + pair[1] + "'], ")
 });
 
-console.log("")
-console.log("FINISHED PAIRING")
-console.log("-------")
+console.log("");
+console.log("FINISHED PAIRING");
+console.log("-------");
