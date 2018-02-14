@@ -29,8 +29,14 @@ let pairsForWeek = [
         ['BD', 'GV'],       // Interior
         ['JM', 'RS'],       // Interior
         ['SC', 'GB']        // Interior
+    ],
+    [
+        ['JL', 'RS'],       // USAWD / Interior
+        ['JLIN', 'MT'],     // Refactor
+        ['RV', 'SC'],       // Interior
+        ['BD', 'JM'],       // Interior
+        ['GB', 'GV']        // Interior
     ]
-
     ]
 ;
 //let pairs = fetch("pairs.txt");
