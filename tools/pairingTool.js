@@ -23,26 +23,34 @@ let pairsForWeek = [
             ['JM', 'RS'],       // Interior
             ['JL', 'SC']        // Interior
         ],
-    [
-        ['RV', 'MT'],       // Refactor
-        ['JLIN', 'JL'],     // USAWD
-        ['BD', 'GV'],       // Interior
-        ['JM', 'RS'],       // Interior
-        ['SC', 'GB']        // Interior
-    ],
-    [
-        ['JL', 'RS'],       // USAWD / Interior
-        ['JLIN', 'MT'],     // Refactor
-        ['RV', 'SC'],       // Interior
-        ['BD', 'JM'],       // Interior
-        ['GB', 'GV']        // Interior
-    ], [
-        ['MT', 'SC'],       // Refactor
-        ['BD', 'RS'],       // Interior
-        ['GB', 'JLIN'],     // Interior
-        ['JL', 'RV'],       // Refactor
-        ['GV', 'JM']        // Wiring
-    ]
+        [
+            ['RV', 'MT'],       // Refactor
+            ['JLIN', 'JL'],     // USAWD
+            ['BD', 'GV'],       // Interior
+            ['JM', 'RS'],       // Interior
+            ['SC', 'GB']        // Interior
+        ],
+        [
+            ['JL', 'RS'],       // USAWD / Interior
+            ['JLIN', 'MT'],     // Refactor
+            ['RV', 'SC'],       // Interior
+            ['BD', 'JM'],       // Interior
+            ['GB', 'GV']        // Interior
+        ],
+        [
+            ['MT', 'SC'],       // Refactor
+            ['BD', 'RS'],       // Interior
+            ['GB', 'JLIN'],     // Interior
+            ['JL', 'RV'],       // Refactor
+            ['GV', 'JM']        // Wiring
+        ],
+        [
+            ['GV', 'JLIN'],     // Interior
+            ['RS', 'RV'],       // Refactor
+            ['JL', 'MT'],       // Refactor
+            ['GB', 'JM'],       // Wiring
+            ['BD', 'SC']        // Interior
+        ]
     ]
 ;
 //let pairs = fetch("pairs.txt");
