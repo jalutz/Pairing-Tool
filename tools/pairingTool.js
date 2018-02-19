@@ -50,7 +50,14 @@ let pairsForWeek = [
             ['JL', 'MT'],       // Refactor
             ['GB', 'JM'],       // Wiring
             ['BD', 'SC']        // Interior
-        ]
+        ],
+    [
+        ['JM', 'SC'],       // Interior
+        ['GB', 'JL'],       // USAWD
+        ['BD', 'MT'],       // Refactor
+        ['JLIN', 'RS'],     // Interior
+        ['GV', 'RV']        // Refactor
+    ]
     ]
 ;
 //let pairs = fetch("pairs.txt");
