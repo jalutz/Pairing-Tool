@@ -51,27 +51,27 @@ let pairsForWeek = [
             ['GB', 'JM'],       // Wiring
             ['BD', 'SC']        // Interior
         ],
-    [
-        ['JM', 'SC'],       // Interior
-        ['GB', 'JL'],       // USAWD
-        ['BD', 'MT'],       // Refactor
-        ['JLIN', 'RS'],     // Interior
-        ['GV', 'RV']        // Refactor
-    ],
-    [
-        ['GV', 'MT'],       // Refactor
-        ['RS', 'SC'],       // USAWD - Interior
-        ['GB', 'RV'],       // Interior
-        ['JLIN', 'JM'],     // Interior
-        ['BD', 'JL']        // Interior
-    ],
-    [
-        ['JM', 'RV'],       // Interior
-        ['BD', 'GB'],       // Interior
-        ['MT', 'RS'],       // Refactor
-        ['JLIN', 'SC'],     // Interior
-        ['GV', 'JL']        // USAWD Interior
-    ]
+        [
+            ['JM', 'SC'],       // Interior
+            ['GB', 'JL'],       // USAWD
+            ['BD', 'MT'],       // Refactor
+            ['JLIN', 'RS'],     // Interior
+            ['GV', 'RV']        // Refactor
+        ],
+        [
+            ['GV', 'MT'],       // Refactor
+            ['RS', 'SC'],       // USAWD - Interior
+            ['GB', 'RV'],       // Interior
+            ['JLIN', 'JM'],     // Interior
+            ['BD', 'JL']        // Interior
+        ],
+        [
+            ['JM', 'RV'],       // Interior
+            ['BD', 'GB'],       // Interior
+            ['MT', 'RS'],       // Refactor
+            ['JLIN', 'SC'],     // Interior
+            ['GV', 'JL']        // USAWD Interior
+        ]
     ]
 ;
 //let pairs = fetch("pairs.txt");
