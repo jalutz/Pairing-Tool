@@ -22,6 +22,13 @@ let pairsForWeek = [
             ['RS', 'SC'],     // Interior
             ['BD', 'JM'],     // Interior
             ['RV', 'GV']      // USAWD
+        ],
+        [
+            ['BD', 'RS'],       // Interior
+            ['MT', 'RV'],       // Interior
+            ['GV', 'JL'],       // Interior
+            ['JLIN', 'JM'],     // Interior
+            ['GB', 'SC']        // Interior
         ]
     ]
 ;
