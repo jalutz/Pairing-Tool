@@ -17,51 +17,23 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
         [
-            ['GB', 'JLIN'],   // Interior
-            ['JL', 'MT'],     // Refactor
-            ['RS', 'SC'],     // Interior
-            ['BD', 'JM'],     // Interior
-            ['RV', 'GV']      // USAWD
-        ],
-        [
-            ['BD', 'RS'],       // Interior
-            ['MT', 'RV'],       // Interior
-            ['GV', 'JL'],       // Interior
-            ['JLIN', 'JM'],     // Interior
-            ['GB', 'SC']        // Interior
-        ],
-        [
-            ['BD', 'JLIN'],     // Interior
-            ['JL', 'RV'],       // USAWD
-            ['GB', 'RS'],       // Interior
-            ['GV', 'JM'],       // Interior
-            ['MT', 'SC']        // Refactor
-        ],
-        [
-            ['BD', 'RV'],       // Interior
-            ['JLIN', 'RS'],     // Interior
-            ['GB', 'JL'],       // USAWD
-            ['JM', 'SC'],       // Interior
-            ['GV', 'MT'],       // Refactor
-        ],
-        [
-            ['JM', 'RS'],       // Interior
-            ['GB', 'RV'],       // Interior
-            ['GV', 'SC'],       // Refactor
-            ['JL', 'JLIN'],     // USAWD
-            ['BD', 'MT']        // Refactor
-        ],
-        [
             ['GB', 'JM'],       // Interior
             ['MT', 'RV'],       // Refactor
             ['JL', 'BD'],       // USAWD / Interior
             ['GV', 'RS'],       // Interior
             ['JLIN', 'SC']      // Refactor
+        ],
+        [
+            ['GB', 'MT'],       // Refactor
+            ['JLIN', 'GV'],     // Interior
+            ['RS', 'BD'],       // Interior
+            ['JL', 'JM'],       // Wiring / Interior
+            ['SC', 'RV']        // Refactor
         ]
     ]
 ;
 //let pairs = fetch("pairs.txt");
-//console.log(pairs.split(";"));
+//console.log(pairs.split(";"));R
 //let pairNames = PAIRS.slice(0, 1);R
 
 function switchPairs(pairs, pairMatch = false, newPairs = []) {
