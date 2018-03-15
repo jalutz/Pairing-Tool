@@ -17,59 +17,18 @@ const INITIAL_PAIRS = [
 
 let pairsForWeek = [
         [
-            ['GB', 'JM'],       // Interior
-            ['MT', 'RV'],       // Refactor
-            ['JL', 'BD'],       // USAWD / Interior
-            ['GV', 'RS'],       // Interior
-            ['JLIN', 'SC']      // Refactor
-        ],
-        [
-            ['GB', 'MT'],       // Refactor
-            ['JLIN', 'GV'],     // Interior
-            ['RS', 'BD'],       // Interior
-            ['JL', 'JM'],       // Wiring / Interior
-            ['SC', 'RV']        // Refactor
-        ],
-        [
-            ['GB', 'RS'],       // Interior
-            ['BD', 'JLIN'],     // Interior
-            ['JM', 'SC'],       // USAWD
-            ['JL', 'RV'],       // Interior
-            ['GV', 'MT'],       // Refactor
-        ], [
-            ['JLIN', 'MT'],     // Refactor
-            ['RS', 'GV'],       // Interior
-            ['JM', 'RV'],       // Wiring
-            ['JL', 'GB'],       // USAWD
-            ['BD', 'SC']        // Interior
-        ],
-        [
-            ['JM', 'MT'],       // Wiring
-            ['GV', 'JL'],       // USAWD
-            ['RS', 'SC'],       // Refactor
-            ['JLIN', 'RV'],     // Interior
-            ['BD', 'GB']        // Interior
-        ],
-        [
-            ['GV', 'SC'],       // Refactor
-            ['GB', 'RV'],       // Interior
-            ['BD', 'MT'],       // Refactor / USAWD
-            ['JM', 'RS'],       // Wiring
-            ['JL', 'JLIN'],     // USAWD
-        ],
-        [
-            ['JLIN', 'JM'],      // Wiring
-            ['GB', 'SC'],        // Refactor
-            ['RS', 'RV'],        // Interior
-            ['BD', 'GV'],        // Interior
-            ['JL', 'MT'],        // USAWD / Refactor
-        ],
-        [
             ['MT', 'SC'],        // Refactor
             ['GV', 'RV'],        // Refactor
             ['BD', 'JM'],        // Interior
             ['GB', 'JLIN'],      // Wiring
             ['JL', 'RS']         // USAWD
+        ],
+        [
+            ['JM', 'MT'],        // Refactor
+            ['RV', 'SC'],        // Refactor
+            ['BD', 'JL'],        // USAWD
+            ['GV', 'JLIN'],      // Interior/Wiring
+            ['GB', 'RS'],        // Interior
         ]
     ]
 ;
