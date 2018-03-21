@@ -1,19 +1,10 @@
 const _ = require('lodash');
 
-const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL"];
+const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL", "BH", ""];
 
-const NUM_PAIRS = 5;
+const NUM_PAIRS = 6;
 
 var iterations = 1;
-
-const INITIAL_PAIRS = [
-    [1, 2],
-    [3, 4],
-    [5, 6],
-    [7, 8],
-    [9, 10]
-];
-``;
 
 let pairsForWeek = [
         [
@@ -29,6 +20,29 @@ let pairsForWeek = [
             ['BD', 'JL'],        // USAWD
             ['GV', 'JLIN'],      // Interior/Wiring
             ['GB', 'RS'],        // Interior
+        ],
+        [
+            ['GB', 'JM'],       // Refactor
+            ['MT', 'SC'],       // Refactor
+            ['GV', 'RS'],       // Interior
+            ['JL', 'RV'],       // USAWD
+            ['BD', 'JLIN'],     // Interior
+        ],
+        [
+            ['JL', 'GV'],       // USAWD / Interior
+            ['BD', 'RS'],       // Interior
+            ['', 'MT'],         // Refactor
+            ['BH', 'JLIN'],     // Selenium
+            ['JM', 'RV'],       // Interior
+            ['SC', 'GB']        // Refactor
+        ],
+        [
+            ['BH', 'RS'],       // Interior
+            ['GB', 'GV'],       // Interior
+            ['', 'JL'],         // USAWD / Interior
+            ['JLIN', 'JM'],     // Interior
+            ['BD', 'SC'],       // Refactor
+            ['MT', 'RV']        // Refactor
         ]
     ]
 ;
