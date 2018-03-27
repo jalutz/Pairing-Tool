@@ -42,7 +42,7 @@ let pairsForWeek = [
             ['', 'JL'],         // USAWD / Interior
             ['JLIN', 'JM'],     // Interior
             ['BD', 'SC'],       // Refactor
-            ['MT', 'RV']        // Refactor
+            ['MT', 'RV']        // RefactorR
         ],
         [
             ['', 'JM'],         // Wiring / Interior / Refactor
@@ -51,6 +51,21 @@ let pairsForWeek = [
             ['JL', 'SC'],       // USAWD / Interior
             ['MT', 'RS'],       // Refactor
             ['JLIN', 'RV']      // Refactor
+        ],
+        [
+            ['GB', 'JL'],       // Refactor Testing
+            ['BD', 'BH'],       // Selenium
+            ['', 'RV'],         // USAWD Testing
+            ['JM', 'RS'],       // Interior
+            ['JLIN', 'MT'],     // Refactor
+            ['GV', 'SC']        // Refactor Testing
+        ],
+        [
+            ['BH', 'JLIN'],     // USAWD Testing
+            ['JM', 'RV'],       // Refactor
+            ['BD', 'GV'],       // Interior
+            ['RS', 'SC'],       // Refactor
+            ['JL', 'MT']        // USAWD / Refactor
         ]
     ]
 ;
