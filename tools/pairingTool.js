@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL", "BH", ""];
+const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL", "BH", "IV"];
 
 const NUM_PAIRS = 6;
 
@@ -8,64 +8,12 @@ var iterations = 1;
 
 let pairsForWeek = [
         [
-            ['MT', 'SC'],        // Refactor
-            ['GV', 'RV'],        // Refactor
-            ['BD', 'JM'],        // Interior
-            ['GB', 'JLIN'],      // Wiring
-            ['JL', 'RS']         // USAWD
-        ],
-        [
-            ['JM', 'MT'],        // Refactor
-            ['RV', 'SC'],        // Refactor
-            ['BD', 'JL'],        // USAWD
-            ['GV', 'JLIN'],      // Interior/Wiring
-            ['GB', 'RS'],        // Interior
-        ],
-        [
-            ['GB', 'JM'],       // Refactor
-            ['MT', 'SC'],       // Refactor
-            ['GV', 'RS'],       // Interior
-            ['JL', 'RV'],       // USAWD
-            ['BD', 'JLIN'],     // Interior
-        ],
-        [
-            ['JL', 'GV'],       // USAWD / Interior
-            ['BD', 'RS'],       // Interior
-            ['', 'MT'],         // Refactor
-            ['BH', 'JLIN'],     // Selenium
-            ['JM', 'RV'],       // Interior
-            ['SC', 'GB']        // Refactor
-        ],
-        [
-            ['BH', 'RS'],       // Interior
-            ['GB', 'GV'],       // Interior
-            ['', 'JL'],         // USAWD / Interior
-            ['JLIN', 'JM'],     // Interior
-            ['BD', 'SC'],       // Refactor
-            ['MT', 'RV']        // RefactorR
-        ],
-        [
-            ['', 'JM'],         // Wiring / Interior / Refactor
-            ['BD', 'GB'],       // Interior
-            ['BH', 'GV'],       // Interior
-            ['JL', 'SC'],       // USAWD / Interior
-            ['MT', 'RS'],       // Refactor
-            ['JLIN', 'RV']      // Refactor
-        ],
-        [
-            ['GB', 'JL'],       // Refactor Testing
-            ['BD', 'BH'],       // Selenium
-            ['', 'RV'],         // USAWD Testing
-            ['JM', 'RS'],       // Interior
-            ['JLIN', 'MT'],     // Refactor
-            ['GV', 'SC']        // Refactor Testing
-        ],
-        [
-            ['BH', 'JLIN'],     // USAWD Testing
-            ['JM', 'RV'],       // Refactor
-            ['BD', 'GV'],       // Interior
-            ['RS', 'SC'],       // Refactor
-            ['JL', 'MT']        // USAWD / Refactor
+            ['GB', 'MT'],       // USAWD / Refactor Testing
+            ['GV', 'IV'],       // Refactor Testing
+            ['BH', 'JL'],       // Selenium
+            ['BD', 'RV'],       // Refactor Testing
+            ['JM', 'SC'],       // Interior
+            ['JLIN', 'RS']      // Refactor Testing
         ]
     ]
 ;
