@@ -22,6 +22,14 @@ let pairsForWeek = [
             ['JM', 'GV'],       // Interior
             ['RV', 'MT'],       // Refactor
             ['GB', 'RS']        // Refactor
+        ],
+        [
+            ['BH', 'GB'],       // Selenium
+            ['RV', 'IV'],       // Refactor
+            ['RS', 'SC'],       // Refactor
+            ['GV', 'JL'],       // USAWD
+            ['JLIN', 'MT'],     // Refactor
+            ['BD', 'JM']        // Interior
         ]
     ]
 ;
