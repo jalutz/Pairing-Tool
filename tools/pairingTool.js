@@ -78,6 +78,14 @@ let pairsForWeek = [
             ['JL', 'SC'],       // Installation
             ['IV', 'JM'],       // Installation
             ['GB', 'JLIN']      // Installation
+        ],
+        [
+            ['BD', 'MT'],       // Installation
+            ['RV', 'SC'],       // Installation
+            ['BH', 'GV'],       // Selenium
+            ['IV', 'RS'],       // Installation
+            ['JLIN', 'JM'],     // Installation
+            ['GB', 'JL']        // Installation
         ]
     ]
 ;
