@@ -8,84 +8,20 @@ var iterations = 1;
 
 let pairsForWeek = [
         [
-            ['GB', 'MT'],       // USAWD / Refactor Testing
-            ['GV', 'IV'],       // Refactor Testing
-            ['BH', 'JL'],       // Selenium
-            ['BD', 'RV'],       // Refactor Testing
-            ['JM', 'SC'],       // Interior
-            ['JLIN', 'RS']      // Refactor Testing
-        ],
-        [
-            ['BD', 'SC'],       // Refactor
-            ['JL', 'JLIN'],     // Refactor
-            ['BH', 'IV'],       // Selenium
-            ['JM', 'GV'],       // Interior
-            ['RV', 'MT'],       // Refactor
-            ['GB', 'RS']        // Refactor
-        ],
-        [
-            ['BH', 'GB'],       // Selenium
-            ['RV', 'IV'],       // Refactor
-            ['RS', 'SC'],       // Refactor
-            ['GV', 'JL'],       // USAWD
-            ['JLIN', 'MT'],     // Refactor
-            ['BD', 'JM']        // Interior
-        ],
-        [
-            ['JLIN', 'RV'],     // Refactor
-            ['GB', 'GV'],       // Interior
-            ['BH', 'JM'],       // Selenium
-            ['IV', 'SC'],       // Refactor
-            ['BD', 'RS'],       // Refactor
-            ['MT', 'JL'],       // Refactor
-        ],
-        [
-            ['BD', 'JLIN'],     // Interior
-            ['IV', 'JL'],       // Refactor
-            ['BH', 'RV'],       // Selenium
-            ['MT', 'RS'],       // Refactor
-            ['GB', 'JM'],       // Refactor
-            ['GV', 'SC']        // Refactor
-        ],
-        [
-            ['BH', 'JLIN'],    // Selenium
-            ['MT', 'RS'],      // Refactor
-            ['BD', 'GB'],      // Refactor
-            ['JL', 'JM'],      // Refactor
-            ['GV', 'RV'],      // Refactor
-            ['IV', 'SC']       // Refactor
-        ],
-        [
-            ['GB', 'IV'],      // Refactor
-            ['MT', 'SC'],      // Refactor
-            ['GV', 'JLIN'],    // Refactor
-            ['JM', 'RV'],      // Refactor
-            ['BD', 'BH'],      // Selenium
-            ['JL', 'RS']       // Refactor
-        ],
-        [
-            ['BH', 'SC'],
-            ['JM', 'MT'],
-            ['IV', 'JLIN'],
-            ['GV', 'RS'],
-            ['GB', 'RV'],
-            ['BD', 'JL']
-        ],
-        [
-            ['RS', 'RV'],       // Installation
-            ['BD', 'GV'],       // Installation
-            ['BH', 'MT'],       // Selenium
-            ['JL', 'SC'],       // Installation
-            ['IV', 'JM'],       // Installation
-            ['GB', 'JLIN']      // Installation
-        ],
-        [
             ['BD', 'MT'],       // Installation
             ['RV', 'SC'],       // Installation
             ['BH', 'GV'],       // Selenium
             ['IV', 'RS'],       // Installation
             ['JLIN', 'JM'],     // Installation
             ['GB', 'JL']        // Installation
+        ],
+        [
+            ['JLIN', 'MT'],     // Installation
+            ['JL', 'SC'],       // Installation
+            ['BD', 'GB'],       // Installation
+            ['BH', 'RV'],       // Selenium
+            ['GV', 'RS'],       // USAWD
+            ['IV', 'JM'],       // Pixil Issues, Installation
         ]
     ]
 ;
