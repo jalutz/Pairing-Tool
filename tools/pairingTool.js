@@ -22,6 +22,14 @@ let pairsForWeek = [
             ['BH', 'RV'],       // Selenium
             ['GV', 'RS'],       // USAWD
             ['IV', 'JM'],       // Pixil Issues, Installation
+        ],
+        [
+            ['BH', 'MT'],       // Selenium
+            ['BD', 'RS'],       // USAWD
+            ['GV', 'JM'],       // Installation
+            ['GB', 'JLIN'],     // Installation
+            ['IV', 'SC'],       // Installation
+            ['JL', 'RV']        // Installation
         ]
     ]
 ;
