@@ -46,6 +46,14 @@ let pairsForWeek = [
             ['BH', 'JL'],       //Installation
             ['IV', 'MT'],       //Installation
             ['GV', 'RV'],       //Installation
+        ],
+        [
+            ['MT', 'SC'],       // Financing
+            ['RS', 'RV'],       // USAWD - Database
+            ['IV', 'JL'],       // Interior
+            ['GV', 'JLIN'],     // Interior
+            ['BH', 'GB'],       // Interior
+            ['BD', 'JM']        // Interior
         ]
     ]
 ;
