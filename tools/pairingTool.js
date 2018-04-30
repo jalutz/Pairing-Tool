@@ -1,57 +1,14 @@
+const moment = require("moment");
+
 const _ = require('lodash');
 
-const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "GB", "JL", "BH", "IV"];
+const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "", "JL", "BH", "IV"];
 
 const NUM_PAIRS = 6;
 
 var iterations = 1;
 
-let pairsForWeek = [
-        [
-            ['BD', 'MT'],       // Installation
-            ['RV', 'SC'],       // Installation
-            ['BH', 'GV'],       // Selenium
-            ['IV', 'RS'],       // Installation
-            ['JLIN', 'JM'],     // Installation
-            ['GB', 'JL']        // Installation
-        ],
-        [
-            ['JLIN', 'MT'],     // Installation
-            ['JL', 'SC'],       // Installation
-            ['BD', 'GB'],       // Installation
-            ['BH', 'RV'],       // Selenium
-            ['GV', 'RS'],       // USAWD
-            ['IV', 'JM'],       // Pixil Issues, Installation
-        ],
-        [
-            ['BH', 'MT'],       // Selenium
-            ['BD', 'RS'],       // USAWD
-            ['GV', 'JM'],       // Installation
-            ['GB', 'JLIN'],     // Installation
-            ['IV', 'SC'],       // Installation
-            ['JL', 'RV']        // Installation
-        ],
-        [
-            ['JL', 'RS'],       // Selenium
-            ['SC', 'GB'],       // Installation
-            ['BD', 'GV'],       // Installation
-            ['IV', 'JLIN'],     // Selenium
-            ['MT', 'RV'],       // Installation
-            ['JM', 'BH'],       // Installation
-        ],
-        [
-            ['GB', 'RS'],       //Installation
-            ['JM', 'SC'],       //Installation
-            ['BD', 'JLIN'],     //Selenium
-            ['BH', 'JL'],       //Installation
-            ['IV', 'MT'],       //Installation
-            ['GV', 'RV'],       //Installation
-        ]
-    ]
-;
-//let pairs = fetch("pairs.txt");
-//console.log(pairs.split(";"));R
-//let pairNames = PAIRS.slice(0, 1);R
+let pairsForWeek = [];
 
 function switchPairs(pairs, pairMatch = false, newPairs = []) {
 
@@ -140,17 +97,54 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+function format(pairs) {
+    return pairs.map(pair => {
+        return [ pair[0], pair[1]];
+    });
+}
+
+function getPairs() {
+    for(let i = 0; i <= 7; i++) {
+        pairsForWeek.push(format(switchPairs(pairsForWeek)));
+    }
+
+    return pairsForWeek;
+}
+
 console.log("-------");
 console.log("STARTING PAIRING");
 console.log("");
 
-let newPairs = switchPairs(pairsForWeek);
+getPairs();
 
-console.log("final new pairs: ");
+let pairsList = "";
+let date = moment();
 
-newPairs.forEach(pair => {
-    console.log("['" + pair[0] + "','" + pair[1] + "'], ")
+pairsForWeek.forEach(pairList=>{
+    if(date.day() === 4) {
+        date.add(4 , 'days')
+    } else {
+        date.add(1, 'days');
+    }
+
+    console.log(date.format("dddd, MMMM Do YYYY"));
+    console.log("---------------")
+    console.log(pairList)
+    pairsList += pairList + "  ";
+    console.log(" ")
+    console.log(" ")
 });
+
+// console.log("pairs for week: ", pairsForWeek);
+
+// let newPairs = switchPairs(pairsForWeek);
+
+// console.log("final new pairs: ");
+// pairsForWeek.forEach(pairList=>{
+//     pairList.forEach(pair => {
+//         console.log("['" + pair[0] + "','" + pair[1] + "'], ")
+//     });
+// });
 
 console.log("");
 console.log("FINISHED PAIRING");
