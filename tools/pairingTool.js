@@ -121,18 +121,18 @@ let pairsList = "";
 let date = moment();
 
 pairsForWeek.forEach(pairList=>{
-    if(date.day() === 4) {
-        date.add(4 , 'days')
-    } else {
-        date.add(1, 'days');
-    }
-
     console.log(date.format("dddd, MMMM Do YYYY"));
     console.log("---------------")
     console.log(pairList)
     pairsList += pairList + "  ";
     console.log(" ")
     console.log(" ")
+
+    if(date.day() === 4) {
+        date.add(4 , 'days')
+    } else {
+        date.add(1, 'days');
+    }
 });
 
 // console.log("pairs for week: ", pairsForWeek);

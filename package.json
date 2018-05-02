@@ -4,7 +4,10 @@
   "description": "",
   "main": "pairingTool.js",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "lodash": "^4.17.4",
+    "moment": "^2.22.1",
+    "path": "^0.12.7",
     "react": "15.5.4",
     "react-dom": "^15.6.1"
   },
