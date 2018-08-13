@@ -2,9 +2,11 @@ const moment = require("moment");
 
 const _ = require('lodash');
 
-const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "GV", "RV", "BD", "", "JL", "BH", "IV"];
+const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "RV", "GV", "TR", "JL", "IV", "WA", ""];
 
 const NUM_PAIRS = 6;
+
+const NUM_DAYS = 9;
 
 var iterations = 1;
 
@@ -14,9 +16,9 @@ function switchPairs(pairs, pairMatch = false, newPairs = []) {
 
     iterations++;
 
-    if (iterations >= 4000) {
+    if (iterations >= 8000) {
         console.log("iterations: ", iterations);
-        console.log("4000 iterations reached. Likely no pairs left! Ending program.");
+        console.log("7000 iterations reached. Likely no pairs left! Ending program.");
         return;
     }
 
@@ -43,7 +45,7 @@ function switchPairs(pairs, pairMatch = false, newPairs = []) {
 
     pairMatch = checkPairs(newPairs, pairsForWeek);
 
-    if (pairMatch == true) {
+    if (pairMatch === true) {
         return switchPairs(pairs, pairMatch, newPairs)
     } else {
         return newPairs
@@ -55,19 +57,19 @@ function checkPairs(newPairs, oldPairsList) {
     _.forEach(oldPairsList, (pArr) => {
 
         newPairs.forEach(pair => { //for each pair in the newly created pair list
-            if (pairMatch == true) {
+            if (pairMatch === true) {
                 return pairMatch;
             }
 
             pArr.forEach(oldPair => { //and each pair in the old pair list
-                if (pairMatch == true) {
+                if (pairMatch === true) {
                     return true;
                 }
 
-                pairMatch = (oldPair[0] == pair[0] && oldPair[1] == pair[1]) ||
-                    (oldPair[0] == pair[1] && oldPair[1] == pair[0]);
+                pairMatch = (oldPair[0] === pair[0] && oldPair[1] === pair[1]) ||
+                    (oldPair[0] === pair[1] && oldPair[1] === pair[0]);
 
-                if (pairMatch == true) {
+                if (pairMatch === true) {
 
                 }
             })
@@ -82,7 +84,7 @@ function getNewPair(pairs, f) {
 
     f.splice(f.indexOf(ran1), 1);
 
-    let ran2 = f.length == 1 ? f[0] : f[getRandomInt(0, f.length - 1)];
+    let ran2 = f.length === 1 ? f[0] : f[getRandomInt(0, f.length - 1)];
 
     f.splice(f.indexOf(ran2), 1);
 
@@ -99,12 +101,12 @@ function getRandomInt(min, max) {
 
 function format(pairs) {
     return pairs.map(pair => {
-        return [ pair[0], pair[1]];
+        return [pair[0], pair[1]];
     });
 }
 
 function getPairs() {
-    for(let i = 0; i <= 7; i++) {
+    for (let i = 0; i <= NUM_DAYS; i++) {
         pairsForWeek.push(format(switchPairs(pairsForWeek)));
     }
 
@@ -120,16 +122,16 @@ getPairs();
 let pairsList = "";
 let date = moment();
 
-pairsForWeek.forEach(pairList=>{
+pairsForWeek.forEach(pairList => {
     console.log(date.format("dddd, MMMM Do YYYY"));
-    console.log("---------------")
-    console.log(pairList)
+    console.log("---------------");
+    console.log(pairList);
     pairsList += pairList + "  ";
-    console.log(" ")
-    console.log(" ")
+    console.log(" ");
+    console.log(" ");
 
-    if(date.day() === 4) {
-        date.add(4 , 'days')
+    if (date.day() === 4) {
+        date.add(4, 'days')
     } else {
         date.add(1, 'days');
     }
