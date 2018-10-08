@@ -2,11 +2,18 @@ const moment = require("moment");
 
 const _ = require('lodash');
 
-const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "RV", "GV", "TR", "JL", "IV", "WA", ""];
+// const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "RV", "GV", "TR", "JL", "IV", "WA", ""];
 
-const NUM_PAIRS = 6;
+// Pod 1
+// const PAIR_NAMES = ["SC", "JM", "IV", "RS", "TR", "JLIN"];
 
-const NUM_DAYS = 9;
+// Pod 2
+// const PAIR_NAMES = ["MT", "RV", "JL", "WA", "GV", ""];
+
+
+const NUM_PAIRS = 3;
+
+const NUM_DAYS = 4;
 
 var iterations = 1;
 
