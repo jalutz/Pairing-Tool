@@ -5,10 +5,10 @@ const _ = require('lodash');
 // const PAIR_NAMES = ["JLIN", "JM", "MT", "SC", "RS", "RV", "GV", "TR", "JL", "IV", "WA", ""];
 
 // Pod 1
-// const PAIR_NAMES = ["SC", "JM", "IV", "RS", "TR", "JLIN"];
+// const PAIR_NAMES = ["RV", "JM", "RS", "JLIN", "WA", "  "];
 
 // Pod 2
-// const PAIR_NAMES = ["MT", "RV", "JL", "WA", "GV", ""];
+const PAIR_NAMES = ["MT", "SC", "IV", "JL", "GV", "  "];
 
 
 const NUM_PAIRS = 3;
